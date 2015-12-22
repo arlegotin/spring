@@ -1,5 +1,5 @@
 # Spring
-spring-based animation
+Spring-based animation. See demo [here](http://dev.artemlegotin.ru/spring/)
 
 ###Using
 
