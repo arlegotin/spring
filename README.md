@@ -34,20 +34,26 @@ Also `action`  can be a function.
 ###Examples
 ```javascript
 
-$( '.button' ).spring( {
-    duration: 2000,
-    n: 12,
-    amplitude: 30,
-    action: 'rotate'
+// using build-in action
+$( '.button' ).on( 'click', function() {
+    $( this ).spring( {
+        duration: 2000,
+        n: 12,
+        amplitude: 30,
+        action: 'rotate'
+    } );
 } );
 
-$( '.button' ).spring( {
-    duration: 800,
-    n: 6,
-    amplitude: 50,
-    action: function( x, $el ) {
-      $el.css( 'margin-top', x );
-    }
+// using custom action
+$( '.button' ).on( 'click', function() {
+    $( this ).spring( {
+        duration: 800,
+        n: 6,
+        amplitude: 50,
+        action: function( x, $el ) {
+          $el.css( 'margin-top', x );
+        }
+    } );
 } );
 
 ```
