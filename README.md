@@ -12,6 +12,8 @@ $( '.button' ).spring( {
 } );
 ```
 
+![alt tag](https://raw.githubusercontent.com/arlegotin/spring/master/graph.jpg)
+
 ###Options
 
 ##### `duration`
