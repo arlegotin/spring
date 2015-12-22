@@ -12,8 +12,6 @@ $( '.button' ).spring( {
 } );
 ```
 
-![alt tag](https://raw.githubusercontent.com/arlegotin/spring/master/graph.jpg)
-
 ###Options
 
 ##### `duration`
@@ -32,6 +30,8 @@ Amplitude (maximal value) of oscillations. Minimal value is 1
 
 Defines element motion. Build-in motions: `'move-x'`, `'move-y'` and `'rotate'`.
 Also `action`  can be a function.
+
+![alt tag](https://raw.githubusercontent.com/arlegotin/spring/master/graph.jpg)
 
 ###Examples
 ```javascript
